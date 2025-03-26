@@ -6,7 +6,6 @@ Featherwalk is my internet handle, through which I share my creative and profess
 
 - React with Typescript
 - Base Project with Vite
-- Testing with Cypress
 - Icons from Fontawesome
 
 ## Goals
