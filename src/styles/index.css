@@ -2,10 +2,14 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  box-sizing: border-box;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
+  background-image: url("/public/kc.jpg");
+  background-size: cover;
+  background-position: center;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -31,15 +35,26 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 2.6em;
   line-height: 1.1;
+  color: aliceblue;
+}
+
+h2 {
+  color: aqua;
+}
+
+section p {
+  color: aliceblue;
+  font-weight: 600;
+  text-align: justify;
 }
 
 button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+  padding: 0.4em 1.2em;
+  font-size: 1.2em;
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
@@ -47,11 +62,12 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: rgba(76, 0, 130, 0.473);
 }
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  outline: none;
+  background-color: antiquewhite;
 }
 
 @media (prefers-color-scheme: light) {
