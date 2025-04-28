@@ -16,13 +16,15 @@
   border-radius: 0;
   padding: 0px 16px;
   width: 380px;
+  min-width: 380px;
 }
 .project-card {
   flex-grow: 1;
   width: min-content;
 }
 .project-image {
-  width: 300px;
+  width: 100%;
+  min-width: 300px;
   height: 200px;
   background-size: cover;
 }
